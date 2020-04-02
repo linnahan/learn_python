@@ -1,0 +1,16 @@
+#转十进制
+print(int('11010101',2))
+print(int('5665',8))
+print(int('F54',16))
+#转二进制
+print(bin(0o6514))
+print(bin(3912))
+print(bin(0xF7a))
+#转八进制
+print(oct(0b1111101011))
+print(oct(3891))
+print(oct(0xF24))
+#转十六进制
+print(hex(0b110101011))
+print(hex(0o6756))
+print(hex(8941))
