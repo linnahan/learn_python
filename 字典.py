@@ -14,3 +14,15 @@ for v in dir_my.values():
 #迭代keys and values
 for d in dir_my.items():
     print(d)
+
+
+#字典
+dir_my = {'name':'linahan','age':'22','email':'1596695476@qq.com'}
+dir_my['age']=21                        #可用于修改、增加
+print(dir_my)
+dir_my['school']='gdsyhgxy'
+print(dir_my)
+dir_my.pop('email')                     #删除的两种方法
+print(dir_my)
+del dir_my['name']
+print(dir_my)
