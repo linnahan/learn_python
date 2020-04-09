@@ -1,5 +1,5 @@
 import urllib.request,re,random
-import progress_bar
+
 
 def urlag():
     uapools=[
@@ -17,7 +17,7 @@ def urlag():
     #print('当前使用User-Agent：',thisua)
 n = 0
 xiaohua=open('xiaohua.txt','w')
-for i in range(6500,7000):
+for i in range(6800,6810):
     urlag()
     try:
         url='http://xiaodiaodaya.cn/article/view.aspx?id=%d'%i
@@ -29,10 +29,10 @@ for i in range(6500,7000):
         xiaohua.writelines(b)
         xiaohua.write('\n')
         n+=1
-        #print('成功第%d个'%n)
+        print('成功第%d个'%n)
     except:
         pass
-    progress_bar.progress_bar(500)
+
 
 xiaohua.close()
 print('总共成功访问了%d次'%n)
