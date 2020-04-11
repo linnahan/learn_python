@@ -1,8 +1,10 @@
 *.log
 *.txt
+*.xlsx
 *.xls
 *.xlsb
 *.png
 *.avi
+*.csv
 test.py
 试验.py

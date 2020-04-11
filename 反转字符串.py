@@ -1,6 +1,6 @@
 #第一种，麻烦
 a ='abcde'
-b =' '
+b =''
 for i in a:
     b =i+b
 print(b)
