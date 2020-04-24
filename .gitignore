@@ -7,5 +7,7 @@
 *.png
 *.avi
 *.csv
+*.md
+!README.md
 test.py
 试验.py
