@@ -1,4 +1,4 @@
-import urllib.request,requests
+import urllib.request,requests,re
 
 
 
@@ -13,9 +13,22 @@ file.write(data)
 file.close()
 print('finished')'''
 
-da = requests.get('https://wenku.baidu.com/view/c29ebdb2172ded630b1cb6b7.html')
+
+
+da = requests.request('get','https://wenku.baidu.com/view/51a9f39ec381e53a580216fc700abb68a882ad2d.html')
 #print(da.text)
 print(da.encoding)
 print(da.headers)
 print(da.cookies)
 print(da.apparent_encoding)
+import re
+
+
+string = '<p(.*?)</p>'
+corvent = re.compile(string).findall(da.text)
+print(type(corvent))
+try:
+    bb = '\n'.join(corvent)
+    print(bb)
+except:
+    print('hh')
