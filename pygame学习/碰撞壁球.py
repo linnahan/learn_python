@@ -5,15 +5,18 @@ pygame.init()       #初始化
 #vInfo = pygame.display.Info()
 #size = width, height = vInfo.current_w, vInfo.current_h
 size = width, height = 600,400
-print(pygame.display.Info())
+#print(pygame.display.Info())
 speed = [1,1]
 BLACK = 0,0,0
 ball = pygame.image.load('PYG02-ball.gif')
 ballrect = ball.get_rect()
-screen = pygame.display.set_mode(size)
+icon = pygame.image.load('PYG03-flower.png')
+pygame.display.set_icon(icon)
+screen = pygame.display.set_mode(size,pygame.NOFRAME)
 pygame.display.set_caption('碰撞壁球')
 fps = 300
 fclock = pygame.time.Clock()
+still = False
 
 while True:
     for event in pygame.event.get():
@@ -28,19 +31,34 @@ while True:
                 speed[1] = speed[1] + 1 if speed[1] >= 0 else speed[1] -1
             elif event.key == pygame.K_DOWN:
                 speed[1] = speed[1] if speed[1] == 0 else (abs(speed[1])-1)*int(speed[1]/abs(speed[1]))
-        elif event.type == pygame.K_ESCAPE:
-            sys.exit()
+            #elif event.key == pygame.K_ESCAPE:
+                #sys.exit()
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 1:
+                still = True
+        elif event.type == pygame.MOUSEBUTTONUP:
+            still = False
+            if event.button == 1:
+                ballrect = ballrect.move(event.pos[0]-ballrect.left,event.pos[1]-ballrect.top)
+        elif event.type == pygame.MOUSEMOTION:
+            if event.buttons[0] == 1:
+                ballrect = ballrect.move(event.pos[0]-ballrect.left,event.pos[1]-ballrect.top)
         elif event.type == pygame.VIDEORESIZE:
             size = width, height = event.size[0], event.size[1]
             screen = pygame.display.set_mode(size, pygame.RESIZABLE)
 
-    ballrect = ballrect.move(speed[0],speed[1])
+    if pygame.display.get_active() and not still:     #判断是否活动bool值，即非最小化
+        ballrect = ballrect.move(speed[0], speed[1])
     if ballrect.left < 0 or ballrect.right > width:
         speed[0] = -speed[0]
+        if ballrect.right > width and ballrect.right + speed[0] > width:
+            speed[0] = -speed[0]
     if ballrect.top < 0 or ballrect.bottom > height:
         speed[1] = -speed[1]
+        if ballrect.bottom > height and ballrect.bottom + speed[1] > height:
+            speed[1] = -speed[1]
 
     screen.fill(BLACK)
     screen.blit(ball,ballrect)
-    pygame.display.update()
+    pygame.display.update()     #刷新屏幕
     fclock.tick(fps)  #控制帧速度，即窗口刷新速度

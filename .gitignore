@@ -4,10 +4,10 @@
 *.xlsx
 *.xls
 *.xlsb
-*.png
 *.avi
 *.csv
 *.md
 !README.md
+!QR.png
 test.py
 试验.py
