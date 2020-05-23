@@ -9,5 +9,5 @@
 *.md
 !README.md
 !QR.png
-test.py
-试验.py
+test.*
+试验.*
