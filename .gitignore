@@ -9,5 +9,5 @@
 *.md
 !README.md
 !QR.png
-test.*
+test*
 试验.*
