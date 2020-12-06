@@ -8,7 +8,7 @@
 *.csv
 *.md
 !README.md
-!QR.png
+QR.png
 test*
 试验.*
 .metadata/*
@@ -16,6 +16,7 @@ test*
 #PyDev
 .project
 .pydevproject
+.settings
 
 # Windows:
 Thumbs.db
