@@ -7,6 +7,7 @@
 *.avi
 *.csv
 *.md
+*.jpg
 !README.md
 QR.png
 test*
