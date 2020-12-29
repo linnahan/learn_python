@@ -8,6 +8,7 @@
 *.csv
 *.md
 *.jpg
+*.html
 !README.md
 QR.png
 test*
