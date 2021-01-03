@@ -9,6 +9,7 @@
 *.md
 *.jpg
 *.html
+*.db
 !README.md
 QR.png
 test*
