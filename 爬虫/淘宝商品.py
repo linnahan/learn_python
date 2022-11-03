@@ -33,7 +33,7 @@ def printGoodsList(ift):
 def main():
     goods = '狗'
     depth = 2
-    start_url = 'htt://s.taobao.com/search?q='+goods
+    start_url = 'http://s.taobao.com/search?q='+goods
     infoList = []
     for i in range(depth):
         try:
