@@ -9,7 +9,7 @@ def draw_background():
     screen.fill(COLORS['lightblue'])
     pygame.draw.rect(screen, COLORS['black'], (-100, 902, 3000, 200), 5)
 
-
+#随时间移动的管道
 def draw_tunnel():
     for x in tunnel_list:
         pygame.draw.rect(screen, COLORS['darkgreen'], (x, 0, 100, 350), 0)
@@ -43,7 +43,7 @@ def draw_dead():
     x, y = 450, 400
     screen.blit(txt, (x, y))
 
-
+#碰撞检测
 def rect_cover(rect1, rect2, up=True):
     # bird
     left_up1 = (rect1[0], rect1[1])
@@ -63,7 +63,7 @@ def rect_cover(rect1, rect2, up=True):
             return True
     return False
 
-
+#pygame绘制rect不支持透明度下实现的透明图层
 def check_dead():
     bird_rect = (bird_x, bird_y, 70, 70)
     if bird_rect[1] + bird_rect[3] > 900:
