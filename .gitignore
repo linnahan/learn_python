@@ -13,6 +13,7 @@
 !README.md
 QR.png
 test*
+！testlearn
 试验.*
 .metadata/*
 
@@ -38,3 +39,7 @@ build
 db.ini
 deploy_key_rsa
 /.metadata/
+
+#others
+__pycache__
+*.pyc
