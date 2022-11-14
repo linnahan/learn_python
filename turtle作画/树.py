@@ -5,15 +5,16 @@ import random
 
 def drawTree(length):
     if length > 1:
-        if length < 30 and length > 14:
+        #颜色及粗细
+        if length < 30 and length > 14:     #粗树枝部分
             pensize(4)
-        elif length < 15 and length > 5:
+        elif length < 15 and length > 5:    #绿树叶部分
             color('#04B486')
             pensize(3)
-        elif length < 5 and length > 1:
+        elif length < 5 and length > 1:     #花点缀部分
             color('#FE2E9A')
             pensize(2)
-        else:
+        else:                               #树干部分，最粗棕色
             color('#5E5E5E')
             pensize(5)
         #随机角度和长度

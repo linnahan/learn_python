@@ -45,6 +45,7 @@ def drawdigit(digit):
 
 def timege():
     nowtime = strftime('%H:%M',gmtime())
+    print(nowtime)
     return nowtime
 
 def main():
