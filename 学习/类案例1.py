@@ -12,7 +12,7 @@ class House:
             self.free_area -= item.area
             self.item.append(item.name)
         else:
-            print("面积不足")
+            print("面积不足啊，换个大点的吧")
 
 class HouseItem:
     def __init__(self,name,area):
@@ -24,12 +24,12 @@ if __name__ == '__main__':
     bed = HouseItem("席梦思",4)
     chest = HouseItem("衣柜",2)
     table = HouseItem("餐桌",1.5)
-    bigbed = HouseItem("大大大", 18)
+    bigbool = HouseItem("游泳池", 50)
 
     house.add_item(bed)
     house.add_item(chest)
     house.add_item(table)
     print(house)
-    house.add_item(bigbed)
+    house.add_item(bigbool)
     print(house)
 
