@@ -1,0 +1,16 @@
+[
+  {
+    "name": "小明",
+    "age": 18,
+    "sex": "男",
+    "like": ["听歌","吃饭","打豆豆"],
+    "adress": {"country": "China","city": "广州"}
+  },
+  {
+    "name": "小红",
+    "age": 17,
+    "sex": "女",
+    "like": ["听歌","学习","购物"],
+    "adress": {"country": "China","city": "北京"}
+  }
+]
