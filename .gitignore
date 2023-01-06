@@ -16,6 +16,7 @@ test*
 试验.*
 .metadata/*
 !testcase.py
+!parameter.py
 !testload.py
 !testsuite_testrunner.py
 
