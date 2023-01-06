@@ -6,16 +6,18 @@
 *.avi
 *.csv
 *.md
-*.jpg
 *.html
 *.db
-*.wav
+p*.py
 !README.md
 QR.png
 test*
-！testlearn
+!testlearn
 试验.*
 .metadata/*
+!testcase.py
+!testload.py
+!testsuite_testrunner.py
 
 #PyDev
 .project
