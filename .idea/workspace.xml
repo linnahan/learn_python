@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a054675c-ac62-4525-8afc-fafef7216245" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nuittest框架/all/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuittest框架/all/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuittest框架/all/case/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuittest框架/all/case/login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuittest框架/all/main_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuittest框架/all/main_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuittest框架/testcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuittest框架/testcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/爬小说/爬酷乐米.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testlearn/a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testlearn/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/爬小说/爬养鬼为祸.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +22,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nuittest框架/testcase.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testlearn/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/学习/selenium-learn">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="196">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+              <folding>
+                <element signature="e#5#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/学习/selenium-learn1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-675">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/学习/selenium_句柄的操作.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/学习/selenium模拟鼠标操作.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding>
+                <element signature="e#5#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,6 +93,7 @@
       <find>font</find>
       <find>frame</find>
       <find>子弹</find>
+      <find>find</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,33 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/py游戏/数独.py" />
-        <option value="$PROJECT_DIR$/py游戏/数独/build.py" />
-        <option value="$PROJECT_DIR$/py游戏/数独/main.py" />
-        <option value="$PROJECT_DIR$/py游戏/像素鸟/main.py" />
-        <option value="$PROJECT_DIR$/py游戏/贪吃蛇/main.py" />
-        <option value="$PROJECT_DIR$/turtle作画/声音扩大.py" />
-        <option value="$PROJECT_DIR$/turtle作画/树.py" />
-        <option value="$PROJECT_DIR$/turtle作画/七段代码管.py" />
-        <option value="$PROJECT_DIR$/爬虫/爬小说.py" />
-        <option value="$PROJECT_DIR$/爬虫/爬小说(努努书坊).py" />
-        <option value="$PROJECT_DIR$/数据分析&amp;展示/转json格式.py" />
-        <option value="$PROJECT_DIR$/爬虫/爬小说/爬起点.py" />
-        <option value="$PROJECT_DIR$/爬虫/爬小说/hhhh.py" />
-        <option value="$PROJECT_DIR$/爬虫/爬小说/aaa.py" />
-        <option value="$PROJECT_DIR$/爬虫/爬小说/ng.py" />
-        <option value="$PROJECT_DIR$/爬虫/爬小说/爬养鬼为祸.py" />
-        <option value="$PROJECT_DIR$/testlearn/script.py" />
-        <option value="$PROJECT_DIR$/testlearn/script/test_login.py" />
-        <option value="$PROJECT_DIR$/testlearn/service/login_service.py" />
-        <option value="$PROJECT_DIR$/学习/类案例1.py" />
-        <option value="$PROJECT_DIR$/学习/类案例2.py" />
-        <option value="$PROJECT_DIR$/学习/json文件操作.py" />
-        <option value="$PROJECT_DIR$/学习/info.json" />
-        <option value="$PROJECT_DIR$/testlearn/k/__init__.py" />
-        <option value="$PROJECT_DIR$/testlearn/k/fad.py" />
-        <option value="$PROJECT_DIR$/testlearn/p1.py" />
-        <option value="$PROJECT_DIR$/nuittest框架/testload.py" />
         <option value="$PROJECT_DIR$/testlearn/case/test_case2.py" />
         <option value="$PROJECT_DIR$/testlearn/case/test_case3.py" />
         <option value="$PROJECT_DIR$/testlearn/case/test_case4.py" />
@@ -124,7 +143,6 @@
         <option value="$PROJECT_DIR$/nuittest框架/parameterized参数化-.py" />
         <option value="$PROJECT_DIR$/testlearn/a.json" />
         <option value="$PROJECT_DIR$/py游戏/坦克大战/src/main.py" />
-        <option value="$PROJECT_DIR$/testlearn/practice.py" />
         <option value="$PROJECT_DIR$/学习/os库学习.py" />
         <option value="$PROJECT_DIR$/nuittest框架/HTMLtestreport.py" />
         <option value="$PROJECT_DIR$/testlearn/data/test1.json" />
@@ -135,6 +153,34 @@
         <option value="$PROJECT_DIR$/nuittest框架/all/app.py" />
         <option value="$PROJECT_DIR$/nuittest框架/all/main_run.py" />
         <option value="$PROJECT_DIR$/nuittest框架/testcase.py" />
+        <option value="$PROJECT_DIR$/testlearn/p1.py" />
+        <option value="$PROJECT_DIR$/testlearn/practice.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm1.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm2.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm3.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm4.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm7.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm8.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm8_info.json" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm10_tools.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm9_tools.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm10.json" />
+        <option value="$PROJECT_DIR$/testlearn/ks/data/tm10.json" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm10.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm5.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm6.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tm9_code.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/case/logincase.py" />
+        <option value="$PROJECT_DIR$/testlearn/ks/tools.py" />
+        <option value="$PROJECT_DIR$/testlearn/test.py" />
+        <option value="$PROJECT_DIR$/爬虫/爬小说/爬养鬼为祸.py" />
+        <option value="$PROJECT_DIR$/爬虫/爬小说/爬酷乐米sele.py" />
+        <option value="$PROJECT_DIR$/学习/selenuim_testubk.py" />
+        <option value="$PROJECT_DIR$/学习/selenium模拟鼠标操作.py" />
+        <option value="$PROJECT_DIR$/学习/selenium-learn1.py" />
+        <option value="$PROJECT_DIR$/学习/selenium_frame切框.py" />
+        <option value="$PROJECT_DIR$/学习/selenium-learn" />
+        <option value="$PROJECT_DIR$/学习/selenium_句柄的操作.py" />
       </list>
     </option>
   </component>
@@ -149,7 +195,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="225" />
+    <option name="x" value="466" />
     <option name="width" value="1500" />
     <option name="height" value="1020" />
   </component>
@@ -157,38 +203,38 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="learn_python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\gitlearn\learn_python" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learn_python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\gitlearn\learn_python" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="nuittest框架" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="testlearn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learn_python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\gitlearn\learn_python" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="nuittest框架" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="all" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="学习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learn_python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\gitlearn\learn_python" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="testlearn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learn_python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\gitlearn\learn_python" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="学习" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="爬小说" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,17 +245,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testlearn/case" />
-    <property name="settings.editor.selected.configurable" value="settings.gitee" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/爬虫/爬小说" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitlearn\learn_python\爬虫\爬小说" />
+      <recent name="D:\gitlearn\learn_python\testlearn\case" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitlearn\learn_python\testlearn\ks\data" />
       <recent name="D:\gitlearn\learn_python\nuittest框架\all" />
       <recent name="D:\gitlearn\learn_python\爬虫\爬小说" />
       <recent name="D:\gitlearn\learn_python\py游戏\数独" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gitlearn\learn_python\testlearn\case" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,28 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testcase.TestDemo">
-    <configuration name="股票数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learn_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/股票数据.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.selenium_句柄的操作">
     <configuration name="树" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="selenium-learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,11 +344,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nuittest框架/all" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nuittest框架/all/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学习/selenium-learn" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="selenium-learn1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,11 +365,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nuittest框架/all/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nuittest框架/all/case/login_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学习/selenium-learn1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,7 +378,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="selenium_句柄的操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,11 +386,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nuittest框架/all" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nuittest框架/all/main_run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学习/selenium_句柄的操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,41 +399,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for login_test.TestLogn" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="selenium_frame切框" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nuittest框架/all/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_test.TestLogn&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学习/selenium_frame切框.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testcase.TestDemo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="selenuim_testubk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nuittest框架" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase.TestDemo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学习/selenuim_testubk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for testcase.TestDemo" />
-        <item itemvalue="Python.main_run (1)" />
-        <item itemvalue="Python tests.Unittests for login_test.TestLogn" />
-        <item itemvalue="Python.login_test" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.selenium_句柄的操作" />
+        <item itemvalue="Python.selenium_frame切框" />
+        <item itemvalue="Python.selenium-learn" />
+        <item itemvalue="Python.selenium-learn1" />
+        <item itemvalue="Python.selenuim_testubk" />
       </list>
     </recent_temporary>
   </component>
@@ -432,21 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_login_test_TestLogn - 2023.01.06 at 15h 38m 49s.xml">
-      <configuration name="Unittests for login_test.TestLogn" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_login_test_TestLogn - 2023.01.06 at 15h 39m 35s.xml">
-      <configuration name="Unittests for login_test.TestLogn" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_login_test_TestLogn - 2023.01.06 at 15h 41m 31s.xml">
-      <configuration name="Unittests for login_test.TestLogn" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_login_test_py - 2023.01.06 at 15h 42m 15s.xml">
-      <configuration name="Unittests in login_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_login_test_TestLogn - 2023.01.06 at 15h 57m 59s.xml">
-      <configuration name="Unittests for login_test.TestLogn" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_login_test_TestLogn - 2023.01.06 at 16h 00m 41s.xml">
       <configuration name="Unittests for login_test.TestLogn" configurationId="tests" />
     </history-entry>
@@ -462,25 +488,49 @@
     <history-entry file="Unittests_for_login_test_TestLogn - 2023.01.06 at 16h 42m 12s.xml">
       <configuration name="Unittests for login_test.TestLogn" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_testcase_TestDemo - 2023.01.06 at 16h 54m 29s.xml">
+      <configuration name="Unittests for testcase.TestDemo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_TestDemo - 2023.01.06 at 16h 54m 54s.xml">
+      <configuration name="Unittests for testcase.TestDemo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_logincase_TestLogin - 2023.01.07 at 10h 57m 07s.xml">
+      <configuration name="Unittests for logincase.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_logincase_TestLogin - 2023.01.07 at 10h 57m 54s.xml">
+      <configuration name="Unittests for logincase.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_logincase_TestLogin_test_method - 2023.01.07 at 12h 19m 50s.xml">
+      <configuration name="Unittests for logincase.TestLogin.test_method" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.18030183" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.18030183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5025381" side_tool="true" weight="0.18030183" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.52575487" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49722" weight="0.29129663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.37833038" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50277996" side_tool="true" weight="0.3445826" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4988086" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,226 +541,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="666" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testlearn/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/学习/类案例1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-503">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/webkitgtk/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习/字符串的处理方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习/字符串的分割.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="287" column="84" lean-forward="true" selection-start-line="287" selection-start-column="84" selection-end-line="287" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习/类案例2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/k/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/testlearn/k/fad.py" />
-    <entry file="file://$PROJECT_DIR$/学习/info.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习/json文件操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/data.json" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-756103818/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3653" column="8" selection-start-line="3653" selection-start-column="8" selection-end-line="3653" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/data1.json" />
-    <entry file="file://$PROJECT_DIR$/testlearn/test.json" />
-    <entry file="file://$PROJECT_DIR$/testlearn/case/test_case3.py" />
-    <entry file="file://$PROJECT_DIR$/testlearn/case/test_case4.py" />
-    <entry file="file://$PROJECT_DIR$/testlearn/case/test_case5.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="228" column="6" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/case/test_case2.py" />
-    <entry file="file://$PROJECT_DIR$/testlearn/case/test_case1.py" />
-    <entry file="file://$PROJECT_DIR$/nuittest框架/fixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/p1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/parameterized参数化-.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py游戏/坦克大战/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3347">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#25#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py游戏/贪吃蛇/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py游戏/植物大战僵尸/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="382" column="21" lean-forward="true" selection-start-line="382" selection-start-column="21" selection-end-line="382" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="472" selection-start-line="472" selection-end-line="472" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/htmltestreport/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/test_report1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/assert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/data/test1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/parameter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习/os库学习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/HTMLtestreport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/all/data/logindata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/all/report/loginTestReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuittest框架/testsuite_testrunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
@@ -721,20 +551,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/test_xm_mk_gn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlearn/a.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testlearn/test_xm_mk_gn.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/a.json" />
     <entry file="file://$PROJECT_DIR$/nuittest框架/all/tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -756,30 +574,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/all/case/login_test.py">
+    <entry file="file://$PROJECT_DIR$/testlearn/p1.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/practice.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm8.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm10_tools.py" />
+    <entry file="file://$PROJECT_DIR$/nuittest框架/all/data/logindata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuittest框架/testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nuittest框架/all/main_run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="125">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuittest框架/testcase.py">
+    <entry file="file://$PROJECT_DIR$/nuittest框架/all/case/login_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="100">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/字符串的索引.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/字符串换行.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/字符串的处理方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm7.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm8_info.json" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/report/loginTestReport.html" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm1.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm2.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm3.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm5.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/data/tm10.json" />
+    <entry file="file://$PROJECT_DIR$/爬虫/re正则表达式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tools.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm4.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm9_code.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm6.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/tm10.py" />
+    <entry file="file://$PROJECT_DIR$/testlearn/ks/case/logincase.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/common/by.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爬小说/爬酷乐米.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1454">
+          <caret line="375" column="8" selection-start-line="375" selection-start-column="8" selection-end-line="375" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="318" column="44" selection-start-line="318" selection-start-column="44" selection-end-line="318" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爬小说/爬努努书坊.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/selenuim_testubk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="17" column="134" selection-start-line="17" selection-start-column="134" selection-end-line="17" selection-end-column="134" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testlearn/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爬小说/爬酷乐米sele.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/selenium模拟鼠标操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#5#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/selenium_frame切框.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/selenium-learn1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/selenium-learn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="e#5#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testlearn/注册A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/meinv.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/meinv.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/selenium_句柄的操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

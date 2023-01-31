@@ -13,6 +13,8 @@ p*.py
 QR.png
 test*
 !testlearn
+!注册A.html
+!drag.html
 试验.*
 .metadata/*
 !testcase.py
