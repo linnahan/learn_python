@@ -49,7 +49,7 @@ search.click()
 # 强制等待
 # sleep(3)
 # 显示等待
-# WebDriverWait(driver,8).until(EC.presence_of_element_located((By.XPATH,'//*[@id="1"]/div/div[1]/div/div[1]/a[4]/img')))
+WebDriverWait(driver,8).until(EC.presence_of_element_located((By.XPATH,'//*[@id="1"]/div/div[1]/div/div[1]/a[4]/img')))
 # 隐式等待
 driver.implicitly_wait(8)
 driver.find_elements_by_xpath('//*[@id="1"]/div/div[1]/div/div[1]/a')[3].click()
