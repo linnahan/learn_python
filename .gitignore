@@ -12,7 +12,7 @@ p*.py
 !README.md
 QR.png
 test*
-!testlearn
+!data
 !注册A.html
 !drag.html
 试验.*
