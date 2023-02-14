@@ -38,8 +38,9 @@ class Easymysql():
             self.cursor.execute(table)
         except Exception as f:
             print(f)
-        finally:
             self.db.rollback()
+        finally:
+            return self
     def _writemanydict(self, table, manydata):
         for data in manydata:
             keys = ', '.join(data.keys())
