@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>测试登录</title>
+    <meta name="generator" content="HTMLTestReport 0.0.1"/>
+    <link rel="stylesheet" href="http://unpkg.com/layui@2.6.8/dist/css/layui.css">
+    
+<style type="text/css">
+    .title { width: auto; height: 60px; text-align: center; font: bolder 38px/60px "Microsoft YaHei UI"; color: #009688; }
+    .summary span { font: normal 16px/38px "Microsoft YaHei UI"; margin-left: 20px; }
+    .success-btn { background-color: #28a745; }
+    .skip-btn { background-color: #84898c; }
+    .passClass  { background-color: #bdedbc; }
+    .failClass  { background-color: #ffefa4; }
+    .errorClass { background-color: #ffc9c9; }
+    .passCase   { color: #5cb85c; }
+    .skipCase   { color: #84898c; }
+    .failCase   { color: #FF6600; font-weight: bold; }
+    .errorCase  { color: #c00; font-weight: bold; }
+    .hiddenRow  { display: none; }
+    .testcase   { margin-left: 2em; }
+    .layui-table tbody tr:hover, .layui-table-click, .layui-table-header, .layui-table-hover, .layui-table-mend, .layui-table-patch, .layui-table-tool, .layui-table[lay-even] tr:nth-child(even) {
+        background-color: transparent;
+    }
+</style>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body>
+    <script language="javascript" type="text/javascript"><!--
+    output_list = Array();
+    function showCase(level) {
+        trs = document.getElementsByTagName("tr");
+        for (var i = 0; i < trs.length; i++) {
+            tr = trs[i];
+            id = tr.id;
+            if (id.substr(0,2) == 'ft') {
+                if (level == 2 || level == 0) {
+                    tr.className = 'hiddenRow';
+                }
+                else {
+                    tr.className = '';
+                }
+            }
+            if (id.substr(0,2) == 'pt') {
+                if (level < 2) {
+                    tr.className = 'hiddenRow';
+                }
+                else {
+                    tr.className = '';
+                }
+            }
+        }      
+    }
+    function showClassDetail(cid, count) {
+        var id_list = Array(count);
+        var toHide = 1;
+        for (var i = 0; i < count; i++) {
+            tid0 = 't' + cid.substr(1) + '.' + (i+1);
+            tid = 'f' + tid0;
+            tr = document.getElementById(tid);
+            if (!tr) {
+                tid = 'p' + tid0;
+                tr = document.getElementById(tid);
+            }
+            id_list[i] = tid;
+            if (tr.className) {
+                toHide = 0;
+            }
+        }
+        for (var i = 0; i < count; i++) {
+            tid = id_list[i];
+            if (toHide) {
+                document.getElementById(tid).className = 'hiddenRow';
+            }
+            else {
+                document.getElementById(tid).className = '';
+            }
+        }
+    }
+    function showTestDetail(div_id){
+        var details_div = document.getElementById(div_id)
+        var displayState = details_div.style.display
+        if (displayState == 'block' || displayState == '' ) {
+            details_div.style.display = 'none'
+        }
+        else {
+            displayState = 'block'
+            details_div.style.display = 'block'
+        }
+    }
+    function html_escape(s) {
+        s = s.replace(/&/g,'&amp;');
+        s = s.replace(/</g,'&lt;');
+        s = s.replace(/>/g,'&gt;');
+        return s;
+    }
+    --></script>
+    <div class="layui-container">
+        
+    <!--报告标题-->
+    <div class="title">测试登录</div>
+    
+    <!--汇总信息-->
+    <fieldset class="layui-elem-field summary">
+        <legend>测试结果汇总</legend>
+        <div class="layui-field-box">
+            <table class="layui-table">
+                <colgroup>
+                    <col width="50%">
+                    <col width="50%">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td>
+                            <button type="button" class="layui-btn">开始时间</button>
+                            <span class="text-dark">2023-01-07 10:56:03</span>
+                        </td>
+                        <td>
+                            <button type="button" class="layui-btn">执行时间</button>
+                            <span class="text-dark">0:00:00 s</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="layui-btn">用例总数</button>
+                            <span class="text-dark">4</span>
+                        </td>
+                        <td>
+                            <button type="button" class="layui-btn">通过率</button>
+                            <span class="text-dark">100.00%</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="button" class="layui-btn">描述信息</button>
+                            <span class="text-dark">无</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="button" class="layui-btn success-btn">成功用例：4</button>
+                            <button type="button" class="layui-btn layui-btn-warm">失败用例：0</button>
+                            <button type="button" class="layui-btn layui-btn-danger">错误用例：0</button>
+                            <button type="button" class="layui-btn skip-btn">跳过用例：0</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+    
+    <!--图表展示-->
+    <fieldset class="layui-elem-field summary">
+        <legend>图表展示</legend>
+        <div class="layui-field-box">
+            <div class="char">
+                <div id="chart1" style="width: 49%;height: 400px;float: left"></div>
+                <div id="chart2" style="width: 49%;height: 400px;float: left"></div>
+            </div>
+        </div>
+    </fieldset>
+
+        
+    <fieldset class="layui-elem-field summary">
+        <legend>详细信息</legend>
+        <div class="layui-field-box">
+            <table id='result_table' class="layui-table">
+            <thead>
+                <tr id='header_row' style='background-color: #009688; color: #fff'>
+                    <th>测试用例</th>
+                    <th>总数</th>
+                    <th>通过</th>
+                    <th>失败</th>
+                    <th>错误</th>
+                    <th>跳过</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+				<tbody>
+                
+    <tr class='passClass'>
+        <td class="text-center">login_test.TestLogn</td>
+        <td class="text-center">4</td>
+        <td class="text-center">4</td>
+        <td class="text-center">0</td>
+        <td class="text-center">0</td>
+        <td class="text-center">0</td>
+        <td class="text-center"><button type="button" class="layui-btn layui-btn-xs" onclick="showClassDetail('c1',4)">详细</button></td>
+    </tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_0__</div></td>
+    <td>
+    <a onfocus='this.blur();' data-toggle="collapse" href="javascript:showTestDetail('div_pt1.1')">
+        通过</a>
+    </td>
+    <td colspan='5'>
+    <div id='div_pt1.1' class="collapse in">
+        <blockquote class="layui-elem-quote">
+            <pre>pt1.1: 用例：正确的用户名和密码 用户名：admin 密码：123456 期望结果：登录成功
+</pre>
+        </blockquote>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_1__</div></td>
+    <td>
+    <a onfocus='this.blur();' data-toggle="collapse" href="javascript:showTestDetail('div_pt1.2')">
+        通过</a>
+    </td>
+    <td colspan='5'>
+    <div id='div_pt1.2' class="collapse in">
+        <blockquote class="layui-elem-quote">
+            <pre>pt1.2: 用例：错误的用户名 用户名：root 密码：123456 期望结果：登录失败
+</pre>
+        </blockquote>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_2__</div></td>
+    <td>
+    <a onfocus='this.blur();' data-toggle="collapse" href="javascript:showTestDetail('div_pt1.3')">
+        通过</a>
+    </td>
+    <td colspan='5'>
+    <div id='div_pt1.3' class="collapse in">
+        <blockquote class="layui-elem-quote">
+            <pre>pt1.3: 用例：错误的密码 用户名：admin 密码：123123 期望结果：登录失败
+</pre>
+        </blockquote>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_3__</div></td>
+    <td>
+    <a onfocus='this.blur();' data-toggle="collapse" href="javascript:showTestDetail('div_pt1.4')">
+        通过</a>
+    </td>
+    <td colspan='5'>
+    <div id='div_pt1.4' class="collapse in">
+        <blockquote class="layui-elem-quote">
+            <pre>pt1.4: 用例：错误的用户名和错误的密码 用户名：aaa 密码：123123 期望结果：登录失败
+</pre>
+        </blockquote>
+    </div>
+    </td>
+</tr>
+
+                </tbody>
+                <tr id='total_row' class="text-center active">
+                    <td align="right">总计</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+	</fieldset>
+
+        <a href="#">
+    <ul class="layui-fixbar"><li class="layui-icon layui-fixbar-top" lay-type="top" style="display: list-item;"></li></ul>
+    </a>
+    
+        
+    <script type="text/javascript">
+        // 初始化echarts实例
+        var myChart1 = echarts.init(document.getElementById('chart1'));
+        var myChart2 = echarts.init(document.getElementById('chart2'));
+        // 指定图表的配置项和数据
+        option1 = {
+            tooltip: {
+                formatter: '{a} <br/>{b} : {c}%'
+            },
+            toolbox: {
+                feature: {
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            series: [{
+                name: '测试结果',
+                type: 'gauge',
+                detail: {
+                    formatter: '100.00%'
+                },
+                data: [{
+                    value: '100.00',
+                    name: '用例通过率'
+                }],
+                axisLine: {
+                    lineStyle: {
+                        color: [
+                            [0.2, '#c20000'],
+                            [0.8, '#ddb518'],
+                            [1, '#00a10a']
+                        ]
+                    }
+                }
+            }]
+        };
+        option2 = {
+            color: ['#00a10a', '#ddb518', 'rgba(204,46,41,0.73)', '#85898c'],
+            tooltip: {
+                trigger: 'item',
+                formatter: '{a} <br/>{b}: {c} ({d}%)'
+            },
+            legend: {
+                orient: 'vertical',
+                left: 10,
+                data: ['通过', '失败', '错误', '跳过']
+            },
+            series: [{
+                name: '测试结果',
+                type: 'pie',
+                radius: ['50%', '70%'],
+                avoidLabelOverlap: false,
+                label: {
+                    show: false,
+                    position: 'center'
+                },
+                emphasis: {
+                    label: {
+                        show: true,
+                        fontSize: '30',
+                        fontWeight: 'bold'
+                    }
+                },
+                labelLine: {
+                    show: false
+                },
+                data: [{
+                        value: 4,
+                        name: '通过'
+                    },
+                    {
+                        value: 0,
+                        name: '失败'
+                    },
+                    {
+                        value: 0,
+                        name: '错误'
+                    },
+                    {
+                        value: 0,
+                        name: '跳过'
+                    }
+                ]
+            }]
+        };
+
+        myChart1.setOption(option1);
+        myChart2.setOption(option2);
+    </script>
+    
+    </div>
+</body>
+</html>

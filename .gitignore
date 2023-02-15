@@ -1,14 +1,10 @@
 *.log
-*.exe
 *.xlsx
 *.xls
 *.xlsb
 *.avi
-*.csv
 *.md
-*.html
 *.db
-p*.py
 !README.md
 QR.png
 test*
@@ -40,6 +36,7 @@ Desktop.ini
 *.egg-info
 dist
 build
+cache
  
 # My configurations:
 db.ini
