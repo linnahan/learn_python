@@ -1,11 +1,11 @@
 # 导入MySQL驱动：
-import mysql.connector
-
+# import mysql.connector
+import pymysql.connections
 
 
 # 注意把password设为你的root口令：
-conn = mysql.connector.connect(user='root', password='123456aZ', database='test')
-
+# conn = mysql.connector.connect(user='root', password='123456aZ', database='test')
+conn = pymysql.connect(user='root', password='123456', database='test02')
 
 '''# 使用 cursor() 方法创建一个游标对象
 cursor = conn.cursor()
