@@ -9,6 +9,6 @@ print('Bind UDP on 9999...')
 while True:
     # 接收数据
     data, addr = s.recvfrom(1024)
-    print('Received from %s:%s.' % addr)
+    print('Received from %s:%s.' %addr)
     s.sendto(b'Hello, %s!' % data, addr)
     

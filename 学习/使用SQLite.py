@@ -13,7 +13,7 @@ cursor.execute('create table user (id varchar(20) primary key, name varchar(20))
 # 继续执行一条SQL语句，插入一条记录：
 cursor.execute('insert into user (id, name) values (\'1\', \'Michael\')')
 # 通过rowcount获得插入的行数：
-cursor.rowcount
+print(cursor.rowcount)
 # 关闭Cursor：
 cursor.close()
 # 提交事务：
@@ -28,7 +28,7 @@ cursor = conn.cursor()
 cursor.execute('select * from user where id=?', ('1',))
 # 获得查询结果集:
 values = cursor.fetchall()
-values
+print(values)
 cursor.close()
 conn.close()
 
