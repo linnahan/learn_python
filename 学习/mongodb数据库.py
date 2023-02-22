@@ -2,7 +2,7 @@ import pymongo,csv
 
 myclient = pymongo.MongoClient('mongodb://192.168.0.222:27017/')    # 连接数据库
 print(myclient.list_database_names())   # 打印数据库名字
-mydb = myclient["runoobdb"]     # 创建数据库
+mydb = myclient["the_way_to_flask"]     # 创建数据库
 mycol = mydb["spider"]       # 创建集合(数据表)
 # mydb = myclient.runoobdb    # 连接数据库
 # mycol = mydb.spider     # 连接表
@@ -31,4 +31,4 @@ def find():
         print(re)
 
 if __name__ == '__main__':
-    update()
+    manyinsert()
