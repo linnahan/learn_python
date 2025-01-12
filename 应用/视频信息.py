@@ -1,7 +1,7 @@
 import cv2
 
 
-video = cv2.VideoCapture("2020-02-27 22-57-05.avi")
+video = cv2.VideoCapture("/Volumes/EAGET忆捷/爱咲/082710-465-carib-whole2048.wmv")
 fps = video.get(cv2.CAP_PROP_FPS)
 Count = video.get(cv2.CAP_PROP_FRAME_COUNT)
 size = (int(video.get(cv2.CAP_PROP_FRAME_WIDTH)), int(video.get(cv2.CAP_PROP_FRAME_HEIGHT)))
